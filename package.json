@@ -37,6 +37,6 @@
   },
   "license": "MIT",
   "browserify": {
-    "transform": [["babelify", { "presets": ["es2015"] }]]
+    "transform": ["vueify", ["babelify", { "presets": ["es2015"] }]]
   }
 }
